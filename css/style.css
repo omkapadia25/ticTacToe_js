@@ -1,0 +1,48 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+}
+.box
+{
+    /* border: 2px solid rgb(242, 18, 18); */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction:column ;
+    width: 20%;
+    height: 20%;
+    margin: 40px;
+    
+    
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid green; */
+    height: 31%;
+}
+.button
+{
+border: 1px solid black;
+margin: 2px;
+width: 20%;
+margin: 2px;
+border-radius: 3px;
+text-align: center;
+font-weight: bold;
+/* height: 31%; */
+}
+.button:hover
+{
+    cursor: pointer;
+}
+.button:disabled{
+    cursor: no-drop ;
+}
